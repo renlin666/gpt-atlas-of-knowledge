@@ -1,0 +1,9 @@
+node_modules/
+out/
+.env
+.env.*
+!.env.example
+assets/audio/*
+!assets/audio/README.md
+*.log
+review/S001/*v001*

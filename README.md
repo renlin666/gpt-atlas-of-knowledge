@@ -2,12 +2,12 @@
 
 **GPT：知识宇宙图鉴** — 从人类的一个问题出发，探索不同学科之间的联系。
 
-程序化动画工程。整体策划约 210 秒；当前只制作了 **S001「光标与提问」v001，8 秒**，等待用户审看。下一镜尚未开始。
+程序化动画工程。整体策划约 210 秒；当前只制作了 **S001「光标与提问」v002，8 秒**，等待用户审看。下一镜尚未开始。
 
 ## 审看第一镜
 
-- [1080p60 MP4](review/S001/S001-v001-1080p60.mp4)（8 秒，无配乐）
-- [完成提问时的关键帧](review/S001/S001-v001-7.6s.png)
+- [1080p60 MP4](review/S001/S001-v002-1080p60.mp4)（8 秒，无配乐）
+- [完成提问时的关键帧](review/S001/S001-v002-7.6s.png)
 - [分镜说明](docs/STORYBOARD.md)
 - [完整策划案](docs/PLAN.md)
 - [制作状态与审看记录](docs/PROGRESS.md)
@@ -37,3 +37,4 @@ npm run export:s001
 这是独立的非官方艺术项目，展现人工策展的知识主题与艺术化联系，不是 GPT 训练集、参数或内部推理的可视化。
 
 制作方法参考 [Nyankomintsu/world-execute-me-lyric-mv](https://github.com/Nyankomintsu/world-execute-me-lyric-mv)。本工程未复制其代码、人物、音乐或歌词。字体等第三方依赖及许可见 [CREDITS.md](CREDITS.md)。
+

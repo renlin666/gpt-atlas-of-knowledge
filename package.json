@@ -1,0 +1,19 @@
+{
+  "name": "gpt-atlas-of-knowledge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "GPT：知识宇宙图鉴 — deterministic animation, reviewed one shot at a time",
+  "scripts": {
+    "preview": "node tools/server.mjs",
+    "export:s001": "node tools/export.mjs",
+    "check": "node tools/check.mjs"
+  },
+  "devDependencies": {
+    "@fontsource-variable/noto-sans-sc": "5.3.1",
+    "@fontsource/cormorant-garamond": "5.3.0",
+    "@fontsource/space-grotesk": "5.3.0",
+    "ffmpeg-static": "5.3.0",
+    "playwright-core": "1.63.0"
+  }
+}

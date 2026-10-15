@@ -1,0 +1,47 @@
+{
+  "project": "GPT: THE ATLAS OF KNOWLEDGE",
+  "planDuration": 210,
+  "activeShot": "S001",
+  "approvalPolicy": "explicit-user-approval-before-next-shot",
+  "music": {
+    "direction": "original-or-explicitly-licensed",
+    "status": "pending",
+    "audioAttached": false
+  },
+  "shots": [
+    {
+      "id": "S001",
+      "chapter": "BOOT",
+      "title": "光标与提问",
+      "start": 0,
+      "end": 8,
+      "version": "v002",
+      "status": "awaiting_review",
+      "approval": null,
+      "intent": "以双语提问与大面积留白建立探索动机，不使用对话输入框。",
+      "copy": "你对我们的世界了解多少？",
+      "beats": [
+        {
+          "start": 0,
+          "end": 1.5,
+          "action": "暗蓝空间，单枚光标缓慢呼吸"
+        },
+        {
+          "start": 1.5,
+          "end": 3.2,
+          "action": "双语片名与唤醒章节轻柔浮现，光标移至排版起点"
+        },
+        {
+          "start": 3.2,
+          "end": 6.6,
+          "action": "英文衬线问题与中文译文同步逐字出现"
+        },
+        {
+          "start": 6.6,
+          "end": 8,
+          "action": "完整双语问题停留，右侧浅轨道形成空间感"
+        }
+      ]
+    }
+  ]
+}

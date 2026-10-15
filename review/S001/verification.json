@@ -1,0 +1,20 @@
+{
+  "shot": "S001",
+  "version": "v002",
+  "resolution": "1920x1080",
+  "checks": [
+    "absolute-time determinism after arbitrary seeking and reload",
+    "time bounds",
+    "timeline seeking",
+    "replay and pause",
+    "390px layout",
+    "browser resources"
+  ],
+  "hashes": {
+    "5": "fa0d878fb54d52b5381a465980cf57df6930763a23010fbfb90f0adb73102c5e",
+    "0.8": "a05e489ac9ab16424f53ada01a3c407dc46dafb46997eea950b204775c6b4146",
+    "2.6": "d500ea62757d0d3db3dfa717b163e8152bdd445f08897e8708c21b25ba86aaa2",
+    "7.6": "e7111d57c01e10f7ccd4e078202895f11c37099138c45e8d27cc59b5006c3c2b"
+  },
+  "errors": []
+}
