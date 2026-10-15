@@ -479,7 +479,7 @@
     }
   ],
   "workflow": {
-    "phase": "final_delivery",
+    "phase": "final_delivered",
     "targetDuration": 210,
     "reviewUnit": "FILM v001",
     "date": "2026-10-15",
@@ -492,9 +492,11 @@
     }
   },
   "githubSync": {
-    "status": "upload_authorized",
+    "status": "synced",
     "date": "2026-10-15",
     "userWords": "现在最终输出一个MP4格式文件，完成的部分可以上传github了",
-    "repository": "https://github.com/renlin666/gpt-atlas-of-knowledge"
+    "repository": "https://github.com/renlin666/gpt-atlas-of-knowledge",
+    "contentCommit": "ac4c63b0890cdea567390cb371cb68f679e3937e",
+    "receipt": "data/github-sync.json"
   }
 }

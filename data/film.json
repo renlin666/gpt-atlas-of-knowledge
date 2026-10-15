@@ -244,7 +244,7 @@
     ],
     "speed": 1
   },
-  "githubUpload": "authorized",
+  "githubUpload": "synced",
   "interpretation": "Curated conceptual art. Cells, life branches and exchange routes are schematic artistic illustrations. No measured model internals are depicted.",
   "output": {
     "file": "review/FILM/FILM-v001-1080p60.mp4",
@@ -263,5 +263,6 @@
     "file": "deliverables/GPT-The-Atlas-of-Knowledge-1080p60.mp4",
     "sha256": "978587aa62d54ba793f1cd6dfd2d0d114e279cd9db57b5a59a8cc5e6fabbd1fe",
     "bytes": 21504048
-  }
+  },
+  "githubSyncReceipt": "data/github-sync.json"
 }

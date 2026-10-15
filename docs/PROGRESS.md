@@ -127,3 +127,5 @@ v002 撤去输入框、角标与扫描线，使用英文衬线大字和较小中
 ## 2026-10-15 · 最终 MP4 与 GitHub 同步授权
 
 用户原话：“现在最终输出一个MP4格式文件，完成的部分可以上传github了”。此指令解除上传暂停，授权交付当前完成的 MP4 与同步项目；不额外推定逐镜批准。最终文件为 deliverables/GPT-The-Atlas-of-Knowledge-1080p60.mp4，与已验证审看版逐字节一致，SHA256：978587aa62d54ba793f1cd6dfd2d0d114e279cd9db57b5a59a8cc5e6fabbd1fe。上传包含代码、最终成片、审看归档与文档，原始第三方音频继续忽略。
+
+GitHub 同步完成：main 内容提交 ac4c63b0890cdea567390cb371cb68f679e3937e。通过连接器上传内容并以 expected_sha 检查更新分支；远端树 SHA 与本地最终快照一致。已用 Git 拉取远端提交并核对 MP4 blob 的 SHA256，确认与本地文件一致。同步收据见 data/github-sync.json。

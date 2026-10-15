@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/renlin666/gpt-atlas-of-knowledge",
+  "branch": "main",
+  "date": "2026-10-15",
+  "status": "synced",
+  "contentCommit": "ac4c63b0890cdea567390cb371cb68f679e3937e",
+  "sourceLocalCommit": "9be9900ec368774a2f44a422e540a06b5d3d4140",
+  "verifiedTree": "3c7ee9afdd059b4de10ac07ec3c1246968056386",
+  "finalMp4": {
+    "path": "deliverables/GPT-The-Atlas-of-Knowledge-1080p60.mp4",
+    "bytes": 21504048,
+    "sha256": "978587aa62d54ba793f1cd6dfd2d0d114e279cd9db57b5a59a8cc5e6fabbd1fe",
+    "gitBlob": "96c394c6c37a6ad5b6691577f8ba4e2f702c8791"
+  },
+  "verification": "Remote branch fetched via Git; its deliverable blob SHA256 matches the local final MP4.",
+  "authorization": "现在最终输出一个MP4格式文件，完成的部分可以上传github了"
+}
