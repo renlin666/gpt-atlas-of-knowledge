@@ -1,7 +1,7 @@
 {
   "project": "GPT: THE ATLAS OF KNOWLEDGE",
   "planDuration": 210,
-  "activeShot": "S001",
+  "activeShot": "S002",
   "approvalPolicy": "explicit-user-approval-before-next-shot",
   "music": {
     "direction": "original-or-explicitly-licensed",
@@ -16,30 +16,68 @@
       "start": 0,
       "end": 8,
       "version": "v002",
-      "status": "awaiting_review",
-      "approval": null,
+      "status": "approved",
+      "approval": {
+        "date": "2026-10-15",
+        "userWords": "第一个分镜通过",
+        "version": "v002"
+      },
       "intent": "以双语提问与大面积留白建立探索动机，不使用对话输入框。",
       "copy": "你对我们的世界了解多少？",
       "beats": [
         {
           "start": 0,
-          "end": 1.5,
-          "action": "暗蓝空间，单枚光标缓慢呼吸"
+          "end": 1.4,
+          "action": "光标亮起"
         },
         {
-          "start": 1.5,
-          "end": 3.2,
-          "action": "双语片名与唤醒章节轻柔浮现，光标移至排版起点"
+          "start": 1.4,
+          "end": 3.1,
+          "action": "双语片名与章节浮现"
         },
         {
-          "start": 3.2,
-          "end": 6.6,
-          "action": "英文衬线问题与中文译文同步逐字出现"
+          "start": 3,
+          "end": 6.2,
+          "action": "双语问题逐字输入"
         },
         {
-          "start": 6.6,
+          "start": 6.2,
           "end": 8,
-          "action": "完整双语问题停留，右侧浅轨道形成空间感"
+          "action": "问题完整停留"
+        }
+      ]
+    },
+    {
+      "id": "S002",
+      "chapter": "BOOT",
+      "title": "提问汇聚成光",
+      "title_en": "The first spark",
+      "start": 8,
+      "end": 14,
+      "version": "v001",
+      "status": "awaiting_review",
+      "approval": null,
+      "intent": "承接已通过的 S001，将双语问题的字形汇聚为一枚知识核心；不进入数学章节。",
+      "beats": [
+        {
+          "start": 8,
+          "end": 8.4,
+          "action": "承接 S001 最后一帧"
+        },
+        {
+          "start": 8.4,
+          "end": 11.2,
+          "action": "双语字形向同一焦点收束，光标化为光点"
+        },
+        {
+          "start": 11.2,
+          "end": 13,
+          "action": "光点稳定，极细轨道展开，双语第一束光淡入"
+        },
+        {
+          "start": 13,
+          "end": 14,
+          "action": "留白与知识核心停留"
         }
       ]
     }
