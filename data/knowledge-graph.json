@@ -1,0 +1,17 @@
+{
+  "kind": "curated-conceptual-relationships",
+  "notModelInternalData": true,
+  "nodes": {
+    "fourier": {"zh":"傅里叶分析","en":"Fourier analysis"},
+    "sound": {"zh":"声音信号","en":"Audio signals"},
+    "graph": {"zh":"图论","en":"Graph theory"},
+    "routes": {"zh":"路径","en":"Routes"},
+    "dna": {"zh":"DNA","en":"DNA"},
+    "cell": {"zh":"细胞","en":"Cells"}
+  },
+  "edges": [
+    {"from":"fourier","to":"sound","zh":"频率分析","en":"Frequency analysis","verified":true,"source":"https://ocw.mit.edu/courses/res-6-007-signals-and-systems-spring-2011/"},
+    {"from":"graph","to":"routes","zh":"路径建模","en":"Path modeling","verified":true,"source":"https://xlinux.nist.gov/dads/HTML/shortestpath.html"},
+    {"from":"dna","to":"cell","zh":"遗传信息","en":"Genetic information","verified":true,"source":"https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet"}
+  ]
+}

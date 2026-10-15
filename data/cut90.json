@@ -1,0 +1,146 @@
+{
+  "id": "CUT90",
+  "version": "v001",
+  "duration": 90,
+  "fps": 60,
+  "status": "approved",
+  "reviewCheckpoint": 90,
+  "approval": {
+    "date": "2026-10-15",
+    "userWords": "做的很好，接着进行，这次直接做完再给我审核"
+  },
+  "sourceAudio": "assets/audio/Aphelion.mp3",
+  "audioPath": "assets/audio/CUT90-Aphelion-v001.m4a",
+  "audioStart": 0,
+  "gainDb": 3,
+  "fadeOutSeconds": 0.75,
+  "tempoChanges": false,
+  "chapterRanges": [
+    {
+      "chapter": "BOOT",
+      "start": 0,
+      "end": 24
+    },
+    {
+      "chapter": "MATHEMATICS",
+      "start": 24,
+      "end": 54
+    },
+    {
+      "chapter": "PHYSICS",
+      "start": 54,
+      "end": 78
+    },
+    {
+      "chapter": "LIFE",
+      "start": 78,
+      "end": 90
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S005",
+      "start": 36,
+      "end": 48,
+      "title": "圆与波的同一个节奏",
+      "chapter": "MATHEMATICS",
+      "en": "A circle, unfolding.",
+      "zh": "圆的投影，成为波。",
+      "sub": "Rotation becomes a rhythm.",
+      "foot": "同一个角度，两种表达。",
+      "footEn": "One angle. Two expressions."
+    },
+    {
+      "id": "S006",
+      "start": 48,
+      "end": 54,
+      "title": "重复之中，秩序生长",
+      "chapter": "MATHEMATICS",
+      "en": "Order, repeated.",
+      "zh": "同一个规则，不同的尺度。",
+      "sub": "The same rule, at every scale.",
+      "foot": "谢尔宾斯基三角形 · 递归构造",
+      "footEn": "Sierpiński triangle · a recursive construction"
+    },
+    {
+      "id": "S007",
+      "start": 54,
+      "end": 66,
+      "title": "波的相遇",
+      "chapter": "PHYSICS",
+      "en": "Waves,|in concert.",
+      "zh": "相遇，叠加，再成为新的形状。",
+      "sub": "Meet. Combine. Become.",
+      "foot": "线性叠加示意 · 蓝线与绿线之和为暖白曲线",
+      "footEn": "Linear superposition · the ivory curve is the sum"
+    },
+    {
+      "id": "S008",
+      "start": 66,
+      "end": 78,
+      "title": "轨道与尺度",
+      "chapter": "PHYSICS",
+      "en": "Across|the scales.",
+      "zh": "引力，让运动拥有轨迹。",
+      "sub": "Gravity gives motion a path.",
+      "foot": "开普勒椭圆轨道示意 · 中心天体位于共同焦点",
+      "footEn": "Keplerian orbits · the central body occupies a shared focus"
+    },
+    {
+      "id": "S009",
+      "start": 78,
+      "end": 90,
+      "title": "生命的双螺旋",
+      "chapter": "LIFE",
+      "en": "Life,|encoded.",
+      "zh": "结构之中，信息延续。",
+      "sub": "A structure that carries information.",
+      "foot": "DNA 双螺旋示意 · 碱基互补配对",
+      "footEn": "DNA double helix · complementary base pairing"
+    }
+  ],
+  "cueAlignment": [
+    {
+      "time": 38.25,
+      "onset": 38.2433,
+      "error": 0.006700000000002149
+    },
+    {
+      "time": 46.4833333333,
+      "onset": 46.4863,
+      "error": 0.0029666666999972335
+    },
+    {
+      "time": 52.4833333333,
+      "onset": 52.4771,
+      "error": 0.006233333300002641
+    },
+    {
+      "time": 56.2333333333,
+      "onset": 56.2387,
+      "error": 0.005366666699998746
+    },
+    {
+      "time": 68.2333333333,
+      "onset": 68.2318,
+      "error": 0.0015333332999887261
+    },
+    {
+      "time": 84.7333333333,
+      "onset": 84.7296,
+      "error": 0.0037333332999907043
+    },
+    {
+      "time": 86.2333333333,
+      "onset": 86.2389,
+      "error": 0.005566666700005385
+    },
+    {
+      "time": 89.25,
+      "onset": 89.2459,
+      "error": 0.004099999999993997
+    }
+  ],
+  "interpretation": "Curated scientific illustrations. Orbits and DNA are schematic, not to scale. No model-internal data is depicted.",
+  "githubUpload": "on_hold_until_whole_film_complete"
+}

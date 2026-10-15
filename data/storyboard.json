@@ -1,8 +1,8 @@
 {
   "project": "GPT: THE ATLAS OF KNOWLEDGE",
   "planDuration": 210,
-  "activeShot": "BOOT",
-  "approvalPolicy": "explicit-user-approval-before-next-shot",
+  "activeShot": "FILM",
+  "approvalPolicy": "complete-film-then-explicit-user-review",
   "music": {
     "direction": "original-or-explicitly-licensed",
     "status": "selected",
@@ -56,8 +56,12 @@
         "version": "v003",
         "start": 0,
         "end": 11.983333333333333,
-        "status": "awaiting_review",
-        "approval": null
+        "status": "approved",
+        "approval": {
+          "date": "2026-10-15",
+          "userWords": "很好，接着进行吧，暂时先不要上传github了，等我们全部做完再上传",
+          "reviewUnit": "BOOT music-v001"
+        }
       }
     },
     {
@@ -101,8 +105,12 @@
         "version": "v002",
         "start": 11.983333333333333,
         "end": 17.983333333333334,
-        "status": "awaiting_review",
-        "approval": null
+        "status": "approved",
+        "approval": {
+          "date": "2026-10-15",
+          "userWords": "很好，接着进行吧，暂时先不要上传github了，等我们全部做完再上传",
+          "reviewUnit": "BOOT music-v001"
+        }
       }
     },
     {
@@ -142,17 +150,351 @@
         "version": "v002",
         "start": 17.983333333333334,
         "end": 24,
-        "status": "awaiting_review",
-        "approval": null
+        "status": "approved",
+        "approval": {
+          "date": "2026-10-15",
+          "userWords": "很好，接着进行吧，暂时先不要上传github了，等我们全部做完再上传",
+          "reviewUnit": "BOOT music-v001"
+        }
       }
+    },
+    {
+      "id": "S004",
+      "chapter": "MATHEMATICS",
+      "title": "一个规则，一条曲线",
+      "title_en": "One rule, one curve",
+      "start": 24,
+      "end": 36,
+      "version": "v001",
+      "status": "approved",
+      "approval": {
+        "date": "2026-10-15",
+        "userWords": "很好的风格，照着执行下去，等总时长到达1分30秒之后，再找我确认即可",
+        "scope": "style and continuation to 90 seconds"
+      },
+      "intent": "承接原点，沿 Aphelion 的起音依次画出直线、抛物线与正弦曲线；公式对应真实绘图规则。",
+      "beats": [
+        {
+          "start": 24,
+          "end": 24.4,
+          "action": "保持前三幕配乐版最后一帧"
+        },
+        {
+          "start": 24.4,
+          "end": 26.983333333333334,
+          "action": "坐标平面舒展，描出 y=x/2"
+        },
+        {
+          "start": 27.75,
+          "end": 29.983333333333334,
+          "action": "切换为 y=x²/3，抛物线从原点展开"
+        },
+        {
+          "start": 30.733333333333334,
+          "end": 32.983333333333334,
+          "action": "切换为 y=sin(x)，描绘连续波形"
+        },
+        {
+          "start": 32.983333333333334,
+          "end": 36,
+          "action": "追踪点沿正弦曲线移动，保持双语公式与构图"
+        }
+      ]
+    },
+    {
+      "id": "S005",
+      "start": 36,
+      "end": 48,
+      "title": "圆与波的同一个节奏",
+      "chapter": "MATHEMATICS",
+      "en": "A circle, unfolding.",
+      "zh": "圆的投影，成为波。",
+      "sub": "Rotation becomes a rhythm.",
+      "foot": "同一个角度，两种表达。",
+      "footEn": "One angle. Two expressions.",
+      "version": "v001",
+      "status": "approved",
+      "reviewUnit": "CUT90 v001",
+      "approval": {
+        "date": "2026-10-15",
+        "userWords": "做的很好，接着进行，这次直接做完再给我审核",
+        "reviewUnit": "CUT90 v001"
+      }
+    },
+    {
+      "id": "S006",
+      "start": 48,
+      "end": 54,
+      "title": "重复之中，秩序生长",
+      "chapter": "MATHEMATICS",
+      "en": "Order, repeated.",
+      "zh": "同一个规则，不同的尺度。",
+      "sub": "The same rule, at every scale.",
+      "foot": "谢尔宾斯基三角形 · 递归构造",
+      "footEn": "Sierpiński triangle · a recursive construction",
+      "version": "v001",
+      "status": "approved",
+      "reviewUnit": "CUT90 v001",
+      "approval": {
+        "date": "2026-10-15",
+        "userWords": "做的很好，接着进行，这次直接做完再给我审核",
+        "reviewUnit": "CUT90 v001"
+      }
+    },
+    {
+      "id": "S007",
+      "start": 54,
+      "end": 66,
+      "title": "波的相遇",
+      "chapter": "PHYSICS",
+      "en": "Waves,|in concert.",
+      "zh": "相遇，叠加，再成为新的形状。",
+      "sub": "Meet. Combine. Become.",
+      "foot": "线性叠加示意 · 蓝线与绿线之和为暖白曲线",
+      "footEn": "Linear superposition · the ivory curve is the sum",
+      "version": "v001",
+      "status": "approved",
+      "reviewUnit": "CUT90 v001",
+      "approval": {
+        "date": "2026-10-15",
+        "userWords": "做的很好，接着进行，这次直接做完再给我审核",
+        "reviewUnit": "CUT90 v001"
+      }
+    },
+    {
+      "id": "S008",
+      "start": 66,
+      "end": 78,
+      "title": "轨道与尺度",
+      "chapter": "PHYSICS",
+      "en": "Across|the scales.",
+      "zh": "引力，让运动拥有轨迹。",
+      "sub": "Gravity gives motion a path.",
+      "foot": "开普勒椭圆轨道示意 · 中心天体位于共同焦点",
+      "footEn": "Keplerian orbits · the central body occupies a shared focus",
+      "version": "v001",
+      "status": "approved",
+      "reviewUnit": "CUT90 v001",
+      "approval": {
+        "date": "2026-10-15",
+        "userWords": "做的很好，接着进行，这次直接做完再给我审核",
+        "reviewUnit": "CUT90 v001"
+      }
+    },
+    {
+      "id": "S009",
+      "start": 78,
+      "end": 90,
+      "title": "生命的双螺旋",
+      "chapter": "LIFE",
+      "en": "Life,|encoded.",
+      "zh": "结构之中，信息延续。",
+      "sub": "A structure that carries information.",
+      "foot": "DNA 双螺旋示意 · 碱基互补配对",
+      "footEn": "DNA double helix · complementary base pairing",
+      "version": "v001",
+      "status": "approved",
+      "reviewUnit": "CUT90 v001",
+      "approval": {
+        "date": "2026-10-15",
+        "userWords": "做的很好，接着进行，这次直接做完再给我审核",
+        "reviewUnit": "CUT90 v001"
+      }
+    },
+    {
+      "id": "S010",
+      "start": 90,
+      "end": 102,
+      "chapter": "LIFE",
+      "title": "结构，组成生命",
+      "en": "A world|within.",
+      "zh": "微小之中，也有一个世界。",
+      "sub": "A world, contained within a cell.",
+      "foot": "真核细胞艺术示意 · 非实际尺度",
+      "footEn": "Eukaryotic cell · schematic, not to scale",
+      "version": "v001",
+      "status": "awaiting_full_film_review",
+      "reviewUnit": "FILM v001",
+      "approval": null
+    },
+    {
+      "id": "S011",
+      "start": 102,
+      "end": 114,
+      "chapter": "LIFE",
+      "title": "生命的多条路径",
+      "en": "Life takes|many paths.",
+      "zh": "分枝，延续，各自生长。",
+      "sub": "Branching. Continuing. Becoming.",
+      "foot": "生命分枝的艺术意象",
+      "footEn": "An artistic branching of life",
+      "version": "v001",
+      "status": "awaiting_full_film_review",
+      "reviewUnit": "FILM v001",
+      "approval": null
+    },
+    {
+      "id": "S012",
+      "start": 114,
+      "end": 126,
+      "chapter": "CIVILIZATION",
+      "title": "文字与记忆",
+      "en": "Memory,|made visible.",
+      "zh": "人类写下问题，也保存答案。",
+      "sub": "We write questions. We preserve answers.",
+      "foot": "读写之间，记忆跨越时间。",
+      "footEn": "Between reading and writing, memory crosses time.",
+      "version": "v001",
+      "status": "awaiting_full_film_review",
+      "reviewUnit": "FILM v001",
+      "approval": null
+    },
+    {
+      "id": "S013",
+      "start": 126,
+      "end": 138,
+      "chapter": "CIVILIZATION",
+      "title": "知识的旅行",
+      "en": "Knowledge|travels.",
+      "zh": "跨越地域，跨越世代。",
+      "sub": "Across places. Across generations.",
+      "foot": "知识交流的意象 · 相遇、翻译、分享",
+      "footEn": "An image of exchange · encounters, translation, sharing",
+      "version": "v001",
+      "status": "awaiting_full_film_review",
+      "reviewUnit": "FILM v001",
+      "approval": null
+    },
+    {
+      "id": "S014",
+      "start": 138,
+      "end": 147,
+      "chapter": "CREATION",
+      "title": "形式与韵律",
+      "en": "Every form|has a rhythm.",
+      "zh": "让问题有回声，让想象有形状。",
+      "sub": "An echo for questions. A form for imagination.",
+      "foot": "诗句、音符与解析波形的艺术转译",
+      "footEn": "An artistic translation between verse, notes and analytic waves",
+      "version": "v001",
+      "status": "awaiting_full_film_review",
+      "reviewUnit": "FILM v001",
+      "approval": null
+    },
+    {
+      "id": "S015",
+      "start": 147,
+      "end": 156,
+      "chapter": "CREATION",
+      "title": "规则与创造",
+      "en": "Patterns become|possibility.",
+      "zh": "规则，也可以是一种创造。",
+      "sub": "A rule can be a creative act.",
+      "foot": "利萨如曲线 · x = sin(3θ + φ)，y = sin(2θ)",
+      "footEn": "Lissajous figure · a changing phase, a changing form",
+      "version": "v001",
+      "status": "awaiting_full_film_review",
+      "reviewUnit": "FILM v001",
+      "approval": null
+    },
+    {
+      "id": "S016",
+      "start": 156,
+      "end": 165,
+      "chapter": "CONNECTION",
+      "title": "知识之间的联系",
+      "en": "Connections, revealed.",
+      "zh": "一门知识，可以打开另一扇门。",
+      "sub": "One idea opens a door to another.",
+      "foot": "从声音到路径，从分子到生命。",
+      "footEn": "From sound to routes. From molecules to life.",
+      "version": "v001",
+      "status": "awaiting_full_film_review",
+      "reviewUnit": "FILM v001",
+      "approval": null
+    },
+    {
+      "id": "S017",
+      "start": 165,
+      "end": 177,
+      "chapter": "CONNECTION",
+      "title": "知识宇宙图鉴",
+      "en": "",
+      "zh": "",
+      "sub": "",
+      "foot": "一个问题，通往无数种连接。",
+      "footEn": "One question. Countless connections.",
+      "version": "v001",
+      "status": "awaiting_full_film_review",
+      "reviewUnit": "FILM v001",
+      "approval": null
+    },
+    {
+      "id": "S018",
+      "start": 177,
+      "end": 186,
+      "chapter": "UNCERTAINTY",
+      "title": "未知与不确定",
+      "en": "Beyond|what we know.",
+      "zh": "并非每个问题，都已有答案。",
+      "sub": "Not every question has an answer yet.",
+      "foot": "保留未知，也保留继续探索的空间。",
+      "footEn": "Leave room for what remains unknown.",
+      "version": "v001",
+      "status": "awaiting_full_film_review",
+      "reviewUnit": "FILM v001",
+      "approval": null
+    },
+    {
+      "id": "S019",
+      "start": 186,
+      "end": 198,
+      "chapter": "UNCERTAINTY",
+      "title": "求证与来源",
+      "en": "A claim|needs a source.",
+      "zh": "让好奇继续，也让求证同行。",
+      "sub": "Stay curious. Keep checking.",
+      "foot": "来源、语境与证据，值得继续追问。",
+      "footEn": "Ask for sources. Consider context. Examine the evidence.",
+      "version": "v001",
+      "status": "awaiting_full_film_review",
+      "reviewUnit": "FILM v001",
+      "approval": null
+    },
+    {
+      "id": "S020",
+      "start": 198,
+      "end": 210,
+      "chapter": "DISCOVER",
+      "title": "下一次探索",
+      "en": "",
+      "zh": "",
+      "sub": "",
+      "foot": "",
+      "footEn": "",
+      "version": "v001",
+      "status": "awaiting_full_film_review",
+      "reviewUnit": "FILM v001",
+      "approval": null
     }
   ],
   "workflow": {
-    "phase": "music-edit-review",
-    "nextShotsOnHold": true,
-    "resumeCondition": "用户审看并确认前三幕连续有声节奏版后，再继续后续镜头",
-    "userRequest": "做的很好，但是我发现没有配乐的问题很大，我们先敲定一下bgm，然后把已经做好的三幕按照bgm节奏进行调整。这项工作完成之后我们再接着进行其余工作",
+    "phase": "final_delivery",
+    "targetDuration": 210,
+    "reviewUnit": "FILM v001",
     "date": "2026-10-15",
-    "reviewUnit": "BOOT music-v001"
+    "userAuthorization": "做的很好，接着进行，这次直接做完再给我审核",
+    "approvalPolicy": "Complete all remaining scenes and ending, then request full-film review.",
+    "completedDuration": 210,
+    "userDeliveryAuthorization": {
+      "date": "2026-10-15",
+      "words": "现在最终输出一个MP4格式文件，完成的部分可以上传github了"
+    }
+  },
+  "githubSync": {
+    "status": "upload_authorized",
+    "date": "2026-10-15",
+    "userWords": "现在最终输出一个MP4格式文件，完成的部分可以上传github了",
+    "repository": "https://github.com/renlin666/gpt-atlas-of-knowledge"
   }
 }

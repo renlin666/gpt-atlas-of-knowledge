@@ -38,7 +38,7 @@ try {
   const [code]=await once(probe,'close');if(code!==0)throw new Error(log);
   if(!log.includes('1920x1080') || !/60 fps/.test(log) || !new RegExp(`frame=\\s*${frames}`).test(log))throw new Error(`Unexpected export metadata: ${log}`);
   if(shot.audioPath&&!/Audio: aac.*48000 Hz, stereo/.test(log))throw new Error('Missing expected AAC stereo soundtrack.');
-  await writeFile(`${folder}/video-verification.txt`,log);
+  await writeFile(`${folder}/video-verification.txt`,log.replace(/\r\n?/g,'\n').split('\n').map(line=>line.trimEnd()).join('\n'));
   console.log(`Verified: ${output}, 1920×1080, 60fps, ${frames} frames, ${duration} seconds, ${shot.audioPath?'AAC stereo soundtrack':'no audio'}.`);
 } finally {
   if(encoder && encoder.exitCode===null)encoder.kill();

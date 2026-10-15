@@ -1,0 +1,13 @@
+{
+  "id":"S004","version":"v001","start":24,"duration":12,"status":"awaiting_review",
+  "audioStart":24,"audioPath":"assets/audio/S004-Aphelion-v001.m4a","fadeInSeconds":0.02,"fadeOutSeconds":0.45,
+  "cues":[
+    {"time":1.4833333333333334,"onset":25.4839,"label":"从原点描出直线"},
+    {"time":2.9833333333333334,"onset":26.9816,"label":"y=x/2 完整呈现"},
+    {"time":3.75,"onset":27.7478,"label":"抛物线开始展开"},
+    {"time":5.983333333333333,"onset":29.9886,"label":"y=x²/3 完整呈现"},
+    {"time":6.733333333333333,"onset":30.7316,"label":"正弦曲线开始展开"},
+    {"time":8.983333333333333,"onset":32.9839,"label":"y=sin(x) 完整呈现"},
+    {"time":11.233333333333333,"onset":35.2363,"label":"追踪点停留，准备下一镜"}
+  ]
+}

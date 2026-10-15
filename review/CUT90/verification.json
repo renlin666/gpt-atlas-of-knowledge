@@ -1,0 +1,114 @@
+{
+  "id": "CUT90",
+  "version": "v001",
+  "duration": 90,
+  "audioPeakDb": -1,
+  "audioGainDb": 3,
+  "previewClockSkew": 0.01937300000000164,
+  "cueAlignment": [
+    {
+      "time": 38.25,
+      "onset": 38.2433,
+      "error": 0.006700000000002149
+    },
+    {
+      "time": 46.4833333333,
+      "onset": 46.4863,
+      "error": 0.0029666666999972335
+    },
+    {
+      "time": 52.4833333333,
+      "onset": 52.4771,
+      "error": 0.006233333300002641
+    },
+    {
+      "time": 56.2333333333,
+      "onset": 56.2387,
+      "error": 0.005366666699998746
+    },
+    {
+      "time": 68.2333333333,
+      "onset": 68.2318,
+      "error": 0.0015333332999887261
+    },
+    {
+      "time": 84.7333333333,
+      "onset": 84.7296,
+      "error": 0.0037333332999907043
+    },
+    {
+      "time": 86.2333333333,
+      "onset": 86.2389,
+      "error": 0.005566666700005385
+    },
+    {
+      "time": 89.25,
+      "onset": 89.2459,
+      "error": 0.004099999999993997
+    }
+  ],
+  "hashes": {
+    "0": "e9662064066fc4ce08fd70be254340ba5e9184e149e6e4fdd82a74c25ab5dbb1",
+    "41": "5ba30f226b7400730f56ecdf19cd4688c35756398699725b07c0e69490703154",
+    "60": "c3647728933af87014294596f4505e4abdfa03a731aa72f5a7d613c865ec90f0",
+    "71": "b8b859ac29d346ccd614c487d66d283ce8949d308c16f9176ecaacf85547a7cb",
+    "23.2333333333": "331f7c05ed88a797a9302f245d7352ddc0fbbf6352dec4312dd3d92841ff40ff",
+    "29.9833333333": "8976b0675f100e3184821d46e7339cc7b02118abd5e375485fd7272e4c54394c",
+    "35.2333333333": "da188c2b0eb8ce654990a9d3ecd2f562aaac9bfd248a3431bb6b178a9da521a8",
+    "46.4833333333": "1951d4771f661a133554de677acbcc03c1805d8779464246e63e6c66b2585306",
+    "52.4833333333": "236489df4bfc5f8935ded26ce9e1f74c936d6f3eb0688bc04eabfff21d693103",
+    "84.7333333333": "0557f138ea74eacc9b8d647d0f55086ed452c0769b10508595494f3e416d5d25",
+    "89.25": "04a14b26c335a6df11b3a766dca9271980b6d6acbec20d6f8081998fa5a48055"
+  },
+  "checks": [
+    "reference circle, recursion, superposition, Kepler equation and complementary pairs",
+    "contiguous timeline to exactly 90 seconds",
+    "approved previous frames preserved",
+    "all shot boundaries pixel-identical to preceding endpoint",
+    "absolute-time frame reproducibility after seeks and reload",
+    "250 transition frames scanned",
+    "audio master clock seek pause replay",
+    "correct minute display",
+    "mobile layout",
+    "no browser errors",
+    "audio headroom",
+    "exported audio identical to preview PCM",
+    "original continuous source alignment across all chapter boundaries"
+  ],
+  "errors": [],
+  "exportedAudioHash": "SHA256=bf6b1101bad6f0ed8f864197fed66db0cb442e4f8da4676f93e91731c1d16a14",
+  "exportedAudioSourceAlignment": [
+    {
+      "time": 12,
+      "zeroLagCorrelation": 0.9999533983134676
+    },
+    {
+      "time": 24,
+      "zeroLagCorrelation": 0.999939785876007
+    },
+    {
+      "time": 36,
+      "zeroLagCorrelation": 0.9998996110788149
+    },
+    {
+      "time": 48,
+      "zeroLagCorrelation": 0.9999383741667772
+    },
+    {
+      "time": 54,
+      "zeroLagCorrelation": 0.9998087785969504
+    },
+    {
+      "time": 66,
+      "zeroLagCorrelation": 0.999901203798001
+    },
+    {
+      "time": 78,
+      "zeroLagCorrelation": 0.9999411449632423
+    },
+    {
+      "time": 87,
+      "zeroLagCorrelation": 0.9998930841976394
+    }
+  ]
+}

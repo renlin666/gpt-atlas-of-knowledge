@@ -1,0 +1,267 @@
+{
+  "id": "FILM",
+  "version": "v001",
+  "duration": 210,
+  "fps": 60,
+  "width": 1920,
+  "height": 1080,
+  "frames": 12600,
+  "status": "final_export_delivered",
+  "approval": null,
+  "userAuthorization": {
+    "date": "2026-10-15",
+    "words": "做的很好，接着进行，这次直接做完再给我审核"
+  },
+  "approvedPrefix": "CUT90 v001",
+  "chapters": [
+    {
+      "id": "BOOT",
+      "zh": "唤醒",
+      "start": 0,
+      "end": 24
+    },
+    {
+      "id": "MATHEMATICS",
+      "zh": "数学",
+      "start": 24,
+      "end": 54
+    },
+    {
+      "id": "PHYSICS",
+      "zh": "物理",
+      "start": 54,
+      "end": 78
+    },
+    {
+      "id": "LIFE",
+      "zh": "生命",
+      "start": 78,
+      "end": 114
+    },
+    {
+      "id": "CIVILIZATION",
+      "zh": "文明",
+      "start": 114,
+      "end": 138
+    },
+    {
+      "id": "CREATION",
+      "zh": "创造",
+      "start": 138,
+      "end": 156
+    },
+    {
+      "id": "CONNECTION",
+      "zh": "关联",
+      "start": 156,
+      "end": 177
+    },
+    {
+      "id": "UNCERTAINTY",
+      "zh": "边界",
+      "start": 177,
+      "end": 198
+    },
+    {
+      "id": "DISCOVER",
+      "zh": "探索",
+      "start": 198,
+      "end": 210
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S010",
+      "start": 90,
+      "end": 102,
+      "chapter": "LIFE",
+      "title": "结构，组成生命",
+      "en": "A world|within.",
+      "zh": "微小之中，也有一个世界。",
+      "sub": "A world, contained within a cell.",
+      "foot": "真核细胞艺术示意 · 非实际尺度",
+      "footEn": "Eukaryotic cell · schematic, not to scale"
+    },
+    {
+      "id": "S011",
+      "start": 102,
+      "end": 114,
+      "chapter": "LIFE",
+      "title": "生命的多条路径",
+      "en": "Life takes|many paths.",
+      "zh": "分枝，延续，各自生长。",
+      "sub": "Branching. Continuing. Becoming.",
+      "foot": "生命分枝的艺术意象",
+      "footEn": "An artistic branching of life"
+    },
+    {
+      "id": "S012",
+      "start": 114,
+      "end": 126,
+      "chapter": "CIVILIZATION",
+      "title": "文字与记忆",
+      "en": "Memory,|made visible.",
+      "zh": "人类写下问题，也保存答案。",
+      "sub": "We write questions. We preserve answers.",
+      "foot": "读写之间，记忆跨越时间。",
+      "footEn": "Between reading and writing, memory crosses time."
+    },
+    {
+      "id": "S013",
+      "start": 126,
+      "end": 138,
+      "chapter": "CIVILIZATION",
+      "title": "知识的旅行",
+      "en": "Knowledge|travels.",
+      "zh": "跨越地域，跨越世代。",
+      "sub": "Across places. Across generations.",
+      "foot": "知识交流的意象 · 相遇、翻译、分享",
+      "footEn": "An image of exchange · encounters, translation, sharing"
+    },
+    {
+      "id": "S014",
+      "start": 138,
+      "end": 147,
+      "chapter": "CREATION",
+      "title": "形式与韵律",
+      "en": "Every form|has a rhythm.",
+      "zh": "让问题有回声，让想象有形状。",
+      "sub": "An echo for questions. A form for imagination.",
+      "foot": "诗句、音符与解析波形的艺术转译",
+      "footEn": "An artistic translation between verse, notes and analytic waves"
+    },
+    {
+      "id": "S015",
+      "start": 147,
+      "end": 156,
+      "chapter": "CREATION",
+      "title": "规则与创造",
+      "en": "Patterns become|possibility.",
+      "zh": "规则，也可以是一种创造。",
+      "sub": "A rule can be a creative act.",
+      "foot": "利萨如曲线 · x = sin(3θ + φ)，y = sin(2θ)",
+      "footEn": "Lissajous figure · a changing phase, a changing form"
+    },
+    {
+      "id": "S016",
+      "start": 156,
+      "end": 165,
+      "chapter": "CONNECTION",
+      "title": "知识之间的联系",
+      "en": "Connections, revealed.",
+      "zh": "一门知识，可以打开另一扇门。",
+      "sub": "One idea opens a door to another.",
+      "foot": "从声音到路径，从分子到生命。",
+      "footEn": "From sound to routes. From molecules to life."
+    },
+    {
+      "id": "S017",
+      "start": 165,
+      "end": 177,
+      "chapter": "CONNECTION",
+      "title": "知识宇宙图鉴",
+      "en": "",
+      "zh": "",
+      "sub": "",
+      "foot": "一个问题，通往无数种连接。",
+      "footEn": "One question. Countless connections."
+    },
+    {
+      "id": "S018",
+      "start": 177,
+      "end": 186,
+      "chapter": "UNCERTAINTY",
+      "title": "未知与不确定",
+      "en": "Beyond|what we know.",
+      "zh": "并非每个问题，都已有答案。",
+      "sub": "Not every question has an answer yet.",
+      "foot": "保留未知，也保留继续探索的空间。",
+      "footEn": "Leave room for what remains unknown."
+    },
+    {
+      "id": "S019",
+      "start": 186,
+      "end": 198,
+      "chapter": "UNCERTAINTY",
+      "title": "求证与来源",
+      "en": "A claim|needs a source.",
+      "zh": "让好奇继续，也让求证同行。",
+      "sub": "Stay curious. Keep checking.",
+      "foot": "来源、语境与证据，值得继续追问。",
+      "footEn": "Ask for sources. Consider context. Examine the evidence."
+    },
+    {
+      "id": "S020",
+      "start": 198,
+      "end": 210,
+      "chapter": "DISCOVER",
+      "title": "下一次探索",
+      "en": "",
+      "zh": "",
+      "sub": "",
+      "foot": "",
+      "footEn": ""
+    }
+  ],
+  "audio": {
+    "title": "Aphelion",
+    "author": "Scott Buckley",
+    "license": "CC BY 4.0",
+    "source": "https://www.scottbuckley.com.au/library/aphelion/",
+    "sourceSha256": "57ae03dbc122f0859e0f9a273e59503e34883728ddb5b06761fbf8244b0eb23e",
+    "file": "assets/audio/FILM-Aphelion-v001.m4a",
+    "edit": {
+      "mainEnd": 177,
+      "tailStart": 386.250023,
+      "tailDuration": 36,
+      "crossfade": 3,
+      "gainRampStart": 90,
+      "gainRampEnd": 102,
+      "initialGainDb": 3
+    },
+    "sourceRanges": [
+      {
+        "sourceStart": 0,
+        "sourceEnd": 177,
+        "filmStart": 0,
+        "filmEnd": 177
+      },
+      {
+        "sourceStart": 386.250023,
+        "sourceEnd": 422.250023,
+        "filmStart": 174,
+        "filmEnd": 210
+      }
+    ],
+    "crossfadeRange": [
+      174,
+      177
+    ],
+    "gain": "+3dB to 90s; ramp to 0dB at 102s; 0dB afterwards",
+    "finalFade": [
+      208.75,
+      210
+    ],
+    "speed": 1
+  },
+  "githubUpload": "authorized",
+  "interpretation": "Curated conceptual art. Cells, life branches and exchange routes are schematic artistic illustrations. No measured model internals are depicted.",
+  "output": {
+    "file": "review/FILM/FILM-v001-1080p60.mp4",
+    "bytes": 21504048,
+    "codec": "H.264",
+    "audioCodec": "AAC",
+    "sampleRate": 48000,
+    "channels": 2,
+    "verification": "review/FILM/verification.json"
+  },
+  "deliveryAuthorization": {
+    "date": "2026-10-15",
+    "userWords": "现在最终输出一个MP4格式文件，完成的部分可以上传github了"
+  },
+  "finalDeliverable": {
+    "file": "deliverables/GPT-The-Atlas-of-Knowledge-1080p60.mp4",
+    "sha256": "978587aa62d54ba793f1cd6dfd2d0d114e279cd9db57b5a59a8cc5e6fabbd1fe",
+    "bytes": 21504048
+  }
+}

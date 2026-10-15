@@ -1,0 +1,193 @@
+{
+  "id": "FILM",
+  "version": "v001",
+  "duration": 210,
+  "frames": 12600,
+  "audioPeakDb": -1,
+  "audioEdit": {
+    "mainEnd": 177,
+    "tailStart": 386.250023,
+    "tailDuration": 36,
+    "crossfade": 3,
+    "gainRampStart": 90,
+    "gainRampEnd": 102,
+    "initialGainDb": 3
+  },
+  "previewClockSkew": 0.008794999999992115,
+  "cueAlignment": [
+    {
+      "time": 117,
+      "onset": 116.9937,
+      "error": 0.0062999999999959755
+    },
+    {
+      "time": 140.25,
+      "onset": 140.2485,
+      "error": 0.0014999999999929514
+    },
+    {
+      "time": 149.25,
+      "onset": 149.2463,
+      "error": 0.0037000000000091404
+    },
+    {
+      "time": 167.25,
+      "onset": 167.2417,
+      "error": 0.008299999999991314
+    }
+  ],
+  "approvedCut90Frames": 11,
+  "hashes": {
+    "96": "8b8c106a678c1192b296ba5070d4f92f4efde49ff2786c9c7060a52ed8648017",
+    "110": "cbf5d779a654b018b348815299b35db486d5465bf44d6aa06d8a0dfb7badb17b",
+    "122": "30a6a27f45da9ab79ecbe796d97ef197afe7671d33a706d7db2f23f279d0c908",
+    "134": "22dab2f56930b746e4e088928f77000629b29770792bba57b048465d4f019e5c",
+    "143": "a3930a91c46260ae113224211d279b52a811a33e033c84cd391f14c9197400ef",
+    "152": "f3526834ad01918a3672189a3bf78754b293fc9f1ca1f210e4821df1f5860e57",
+    "161": "f3a731f50e86f0d9c3ac195b46740da7b7df6a55ad535a88cf2f5d967322ebb9",
+    "171": "98d2a6351600af70a4f3184cf63e3726f7ed35e8e3e3881a0dd8efa9067faa39",
+    "183": "6c727a8531ff528c6aece5535db42695a084032d005d2f6a38b497af4938f312",
+    "194": "5201e3af91728127613117d2d2e95b648f04f0e11118e02f7fa034baad7856a2",
+    "204": "01bf61ea32c60231a4f72cd3b955adcf50c22335578f00e58c18fdcc8818d548",
+    "210": "fd91ae70c71c16b5b3537fa6aa3511e0205a2c40f5dccc82451650216021414b",
+    "207.8": "763f36c85223ff517238cde23cdd9c8a8a427b4bb3c2b4d77ca722d5c872e058"
+  },
+  "checks": [
+    "210-second gap-free full narrative",
+    "archived approved CUT90 frames pixel-identical",
+    "11 boundary frames match preceding scene endpoints",
+    "539 transition frames rendered",
+    "reference branch count, sphere norm and closed Lissajous curve",
+    "curated relationship sources present",
+    "deterministic seeking and reload",
+    "bilingual text within frame",
+    "clean final dark frame",
+    "audio clock and end-of-film stop",
+    "seek pause replay minute display and mobile layout",
+    "no browser errors",
+    "audio headroom",
+    "EBU R128 integrated loudness and oversampled true peak",
+    "nine chapter links seek to the matching score time",
+    "full H.264 video decode and 12600-frame metadata verified by exporter",
+    "exported soundtrack identical to preview PCM",
+    "original source positioning before and after the tail edit",
+    "linear crossfade matches the two original source intervals",
+    "approved opening gain preserved",
+    "quiet final 100ms"
+  ],
+  "errors": [],
+  "integratedLoudnessLufs": -16,
+  "truePeakDbfs": -1,
+  "loudnessRangeLu": 10.6,
+  "exportedAudioHash": "SHA256=ea5ffed1dfc15df0bbcd0d875f42e40ddedef3830c2985b09adad4bdddfeb6c8",
+  "exportedAudioSourceAlignment": [
+    {
+      "time": 12,
+      "sourceTime": 12,
+      "lag": 0,
+      "correlation": 0.9999509264745959,
+      "gain": 1.4112728599473634,
+      "referenceRms": 0.05223926911498821,
+      "residualRms": 0.0007304032442024945
+    },
+    {
+      "time": 36,
+      "sourceTime": 36,
+      "lag": 0,
+      "correlation": 0.9998882354319957,
+      "gain": 1.4094977269405726,
+      "referenceRms": 0.05166707925724437,
+      "residualRms": 0.0010888843790043468
+    },
+    {
+      "time": 78,
+      "sourceTime": 78,
+      "lag": 0,
+      "correlation": 0.9999440909448986,
+      "gain": 1.4089011011829058,
+      "referenceRms": 0.11887940746015305,
+      "residualRms": 0.0017711748046021633
+    },
+    {
+      "time": 87,
+      "sourceTime": 87,
+      "lag": 0,
+      "correlation": 0.9998920424102006,
+      "gain": 1.408170263365749,
+      "referenceRms": 0.10191571057388173,
+      "residualRms": 0.002108982907385156
+    },
+    {
+      "time": 114,
+      "sourceTime": 114,
+      "lag": 0,
+      "correlation": 0.9999113408622431,
+      "gain": 0.9968360767336537,
+      "referenceRms": 0.19865571609349278,
+      "residualRms": 0.002637123338336749
+    },
+    {
+      "time": 138,
+      "sourceTime": 138,
+      "lag": 0,
+      "correlation": 0.999923141870005,
+      "gain": 0.9974688018652818,
+      "referenceRms": 0.2961392581164973,
+      "residualRms": 0.003662522025421227
+    },
+    {
+      "time": 156,
+      "sourceTime": 156,
+      "lag": 0,
+      "correlation": 0.9998963243993602,
+      "gain": 0.9978811333948023,
+      "referenceRms": 0.15527910782491372,
+      "residualRms": 0.0022314074973799323
+    },
+    {
+      "time": 170,
+      "sourceTime": 170,
+      "lag": 0,
+      "correlation": 0.9998968828992008,
+      "gain": 0.9964087983253289,
+      "referenceRms": 0.1735089889321115,
+      "residualRms": 0.0024829814044391627
+    },
+    {
+      "time": 180,
+      "sourceTime": 392.250023,
+      "lag": 0,
+      "correlation": 0.9993912342499195,
+      "gain": 0.9984053916869722,
+      "referenceRms": 0.08616581346171695,
+      "residualRms": 0.0030031731418390197
+    },
+    {
+      "time": 195,
+      "sourceTime": 407.250023,
+      "lag": 0,
+      "correlation": 0.9998848606920812,
+      "gain": 0.9995759373309492,
+      "referenceRms": 0.05816979959922873,
+      "residualRms": 0.0008824247314327069
+    },
+    {
+      "time": 204,
+      "sourceTime": 416.250023,
+      "lag": 0,
+      "correlation": 0.9865227339351078,
+      "gain": 0.979268714277166,
+      "referenceRms": 0.0002355500524711956,
+      "residualRms": 0.000038258299110405686
+    }
+  ],
+  "approvedOpeningPcmMaxDifference": 0,
+  "final100msRms": 0.0000010118492567933153,
+  "crossfadeAlignment": {
+    "lag": 0,
+    "correlation": 0.9995739837615759,
+    "gain": 0.9942362671898696,
+    "referenceRms": 0.12534712218716615,
+    "residualRms": 0.0036389060244302
+  }
+}

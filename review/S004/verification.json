@@ -1,0 +1,40 @@
+{
+  "shot": "S004",
+  "version": "v001",
+  "duration": 12,
+  "songRange": [
+    24,
+    36
+  ],
+  "audioPeakDb": -1.1,
+  "maxCueError": 0.005266666666667419,
+  "audioSourceAlignment": {
+    "lag": 0,
+    "correlation": 0.9994614466177912
+  },
+  "continuousAudioAlignment": {
+    "lag": 0,
+    "correlation": 0.9993981160658677
+  },
+  "previewClockSkew": 0.02613399999999999,
+  "hashes": {
+    "2.9833333333": "d03fe37a92b3b57211ba2e542833bb079f379810502a8f74e3d038073ff11c0e",
+    "5.9833333333": "8976b0675f100e3184821d46e7339cc7b02118abd5e375485fd7272e4c54394c",
+    "8.9833333333": "f6bbcd2f7de6bd17d113b2855d48445809580eaf236250dce4a0dde03e9fbe8d",
+    "11.2333333333": "da188c2b0eb8ce654990a9d3ecd2f562aaac9bfd248a3431bb6b178a9da521a8"
+  },
+  "checks": [
+    "known formula reference values",
+    "cue alignment within half a video frame",
+    "correct audio excerpt and no clipping",
+    "continuous score audio alignment",
+    "pixel-exact previous-shot boundary",
+    "determinism after random seeking and reload",
+    "continuous and single-shot image match",
+    "audio clock",
+    "seek replay pause",
+    "mobile layout",
+    "no browser errors"
+  ],
+  "errors": []
+}

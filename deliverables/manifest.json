@@ -1,0 +1,23 @@
+{
+  "file": "GPT-The-Atlas-of-Knowledge-1080p60.mp4",
+  "version": "v001",
+  "format": "MP4",
+  "videoCodec": "H.264",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "durationSeconds": 210,
+  "frames": 12600,
+  "audioCodec": "AAC",
+  "sampleRate": 48000,
+  "channels": 2,
+  "bytes": 21504048,
+  "sha256": "978587aa62d54ba793f1cd6dfd2d0d114e279cd9db57b5a59a8cc5e6fabbd1fe",
+  "music": "Aphelion — Scott Buckley",
+  "license": "CC BY 4.0",
+  "credits": "../CREDITS.md",
+  "userDeliveryAuthorization": {
+    "date": "2026-10-15",
+    "words": "现在最终输出一个MP4格式文件，完成的部分可以上传github了"
+  }
+}

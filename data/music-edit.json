@@ -1,50 +1,215 @@
 {
-  "id":"BOOT",
-  "version":"music-v001",
-  "duration":24,
-  "fps":60,
-  "status":"awaiting_review",
-  "track":{
-    "title":"Aphelion",
-    "author":"Scott Buckley",
-    "source":"https://www.scottbuckley.com.au/library/aphelion/",
-    "download":"https://www.scottbuckley.com.au/library/wp-content/uploads/2026/04/Aphelion.mp3",
-    "license":"CC BY 4.0",
-    "licenseUrl":"https://creativecommons.org/licenses/by/4.0/",
-    "sha256":"57ae03dbc122f0859e0f9a273e59503e34883728ddb5b06761fbf8244b0eb23e",
-    "selectedOn":"2026-10-15",
-    "userSelection":"A · Aphelion：科幻叙事，安静开场到宏大高潮（推荐）",
-    "originalDuration":422.250023,
-    "localFile":"assets/audio/Aphelion.mp3",
-    "previewFile":"assets/audio/BOOT-Aphelion-music-v001.m4a",
-    "gainDb":4,
-    "fadeOutSeconds":0.45,
-    "changes":"开头 0–24 秒节选，增益 +4dB，审看片段末尾 0.45 秒淡出；音乐速度不变。"
+  "id": "BOOT",
+  "version": "music-v001",
+  "duration": 24,
+  "fps": 60,
+  "status": "approved",
+  "track": {
+    "title": "Aphelion",
+    "author": "Scott Buckley",
+    "source": "https://www.scottbuckley.com.au/library/aphelion/",
+    "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2026/04/Aphelion.mp3",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sha256": "57ae03dbc122f0859e0f9a273e59503e34883728ddb5b06761fbf8244b0eb23e",
+    "selectedOn": "2026-10-15",
+    "userSelection": "A · Aphelion：科幻叙事，安静开场到宏大高潮（推荐）",
+    "originalDuration": 422.250023,
+    "localFile": "assets/audio/Aphelion.mp3",
+    "previewFile": "assets/audio/BOOT-Aphelion-music-v001.m4a",
+    "gainDb": 4,
+    "fadeOutSeconds": 0.45,
+    "changes": "开头 0–24 秒节选，增益 +4dB，审看片段末尾 0.45 秒淡出；音乐速度不变。"
   },
-  "rhythm":{
-    "estimatedOpeningBpm":80,
-    "periodSeconds":0.75,
-    "basis":"开场谱通量起音间隔约 0.75 秒；属于当前段落的工作网格，不代表测得全曲恒定拍号或小节重音。",
-    "alignment":"视觉落点取实测起音邻近的 60fps 帧，非机械地将全部元素逐拍闪动。"
+  "rhythm": {
+    "estimatedOpeningBpm": 80,
+    "periodSeconds": 0.75,
+    "basis": "开场谱通量起音间隔约 0.75 秒；属于当前段落的工作网格，不代表测得全曲恒定拍号或小节重音。",
+    "alignment": "视觉落点取实测起音邻近的 60fps 帧，非机械地将全部元素逐拍闪动。"
   },
-  "shots":[
-    {"id":"S001","musicVersion":"v003","start":0,"end":11.983333333333333,"originalDuration":8,"map":[[0,0],[0.7333333333333333,0.65],[2.2333333333333334,1.4],[3.7333333333333334,3],[9.733333333333333,6.2],[11.983333333333333,8]]},
-    {"id":"S002","musicVersion":"v002","start":11.983333333333333,"end":17.983333333333334,"originalDuration":6,"map":[[11.983333333333333,0],[12.733333333333333,0.4],[15.733333333333333,3.2],[17.233333333333334,4.9],[17.983333333333334,6]]},
-    {"id":"S003","musicVersion":"v002","start":17.983333333333334,"end":24,"originalDuration":6,"map":[[17.983333333333334,0],[18.733333333333334,0.4],[19.483333333333334,1.3],[20.983333333333334,2.8],[22.483333333333334,4.8],[23.233333333333334,6],[24,6]]}
+  "shots": [
+    {
+      "id": "S001",
+      "musicVersion": "v003",
+      "start": 0,
+      "end": 11.983333333333333,
+      "originalDuration": 8,
+      "map": [
+        [
+          0,
+          0
+        ],
+        [
+          0.7333333333333333,
+          0.65
+        ],
+        [
+          2.2333333333333334,
+          1.4
+        ],
+        [
+          3.7333333333333334,
+          3
+        ],
+        [
+          9.733333333333333,
+          6.2
+        ],
+        [
+          11.983333333333333,
+          8
+        ]
+      ]
+    },
+    {
+      "id": "S002",
+      "musicVersion": "v002",
+      "start": 11.983333333333333,
+      "end": 17.983333333333334,
+      "originalDuration": 6,
+      "map": [
+        [
+          11.983333333333333,
+          0
+        ],
+        [
+          12.733333333333333,
+          0.4
+        ],
+        [
+          15.733333333333333,
+          3.2
+        ],
+        [
+          17.233333333333334,
+          4.9
+        ],
+        [
+          17.983333333333334,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "S003",
+      "musicVersion": "v002",
+      "start": 17.983333333333334,
+      "end": 24,
+      "originalDuration": 6,
+      "map": [
+        [
+          17.983333333333334,
+          0
+        ],
+        [
+          18.733333333333334,
+          0.4
+        ],
+        [
+          19.483333333333334,
+          1.3
+        ],
+        [
+          20.983333333333334,
+          2.8
+        ],
+        [
+          22.483333333333334,
+          4.8
+        ],
+        [
+          23.233333333333334,
+          6
+        ],
+        [
+          24,
+          6
+        ]
+      ]
+    }
   ],
-  "cues":[
-    {"time":0.7333333333333333,"onset":0.7314,"label":"光标亮起","shot":"S001"},
-    {"time":2.2333333333333334,"onset":2.2291,"label":"双语片名浮现","shot":"S001"},
-    {"time":3.7333333333333334,"onset":3.7384,"label":"双语问题开始输入","shot":"S001"},
-    {"time":9.733333333333333,"onset":9.7408,"label":"完整问题落定，留出阅读时间","shot":"S001"},
-    {"time":11.983333333333333,"onset":11.9815,"label":"进入汇聚镜头","shot":"S002"},
-    {"time":12.733333333333333,"onset":12.7361,"label":"双语字形开始收束","shot":"S002"},
-    {"time":15.733333333333333,"onset":15.7315,"label":"知识核心聚成光点","shot":"S002"},
-    {"time":17.233333333333334,"onset":17.2292,"label":"第一束光的双语标题完成","shot":"S002"},
-    {"time":17.983333333333334,"onset":17.9839,"label":"进入原点镜头","shot":"S003"},
-    {"time":19.483333333333334,"onset":19.4815,"label":"轨道向坐标轴变形","shot":"S003"},
-    {"time":20.983333333333334,"onset":20.9792,"label":"横轴展开","shot":"S003"},
-    {"time":22.483333333333334,"onset":22.4885,"label":"坐标展开接近完成","shot":"S003"},
-    {"time":23.233333333333334,"onset":23.2316,"label":"数学章节交接完成","shot":"S003"}
-  ]
+  "cues": [
+    {
+      "time": 0.7333333333333333,
+      "onset": 0.7314,
+      "label": "光标亮起",
+      "shot": "S001"
+    },
+    {
+      "time": 2.2333333333333334,
+      "onset": 2.2291,
+      "label": "双语片名浮现",
+      "shot": "S001"
+    },
+    {
+      "time": 3.7333333333333334,
+      "onset": 3.7384,
+      "label": "双语问题开始输入",
+      "shot": "S001"
+    },
+    {
+      "time": 9.733333333333333,
+      "onset": 9.7408,
+      "label": "完整问题落定，留出阅读时间",
+      "shot": "S001"
+    },
+    {
+      "time": 11.983333333333333,
+      "onset": 11.9815,
+      "label": "进入汇聚镜头",
+      "shot": "S002"
+    },
+    {
+      "time": 12.733333333333333,
+      "onset": 12.7361,
+      "label": "双语字形开始收束",
+      "shot": "S002"
+    },
+    {
+      "time": 15.733333333333333,
+      "onset": 15.7315,
+      "label": "知识核心聚成光点",
+      "shot": "S002"
+    },
+    {
+      "time": 17.233333333333334,
+      "onset": 17.2292,
+      "label": "第一束光的双语标题完成",
+      "shot": "S002"
+    },
+    {
+      "time": 17.983333333333334,
+      "onset": 17.9839,
+      "label": "进入原点镜头",
+      "shot": "S003"
+    },
+    {
+      "time": 19.483333333333334,
+      "onset": 19.4815,
+      "label": "轨道向坐标轴变形",
+      "shot": "S003"
+    },
+    {
+      "time": 20.983333333333334,
+      "onset": 20.9792,
+      "label": "横轴展开",
+      "shot": "S003"
+    },
+    {
+      "time": 22.483333333333334,
+      "onset": 22.4885,
+      "label": "坐标展开接近完成",
+      "shot": "S003"
+    },
+    {
+      "time": 23.233333333333334,
+      "onset": 23.2316,
+      "label": "数学章节交接完成",
+      "shot": "S003"
+    }
+  ],
+  "approval": {
+    "date": "2026-10-15",
+    "userWords": "很好，接着进行吧，暂时先不要上传github了，等我们全部做完再上传"
+  }
 }
