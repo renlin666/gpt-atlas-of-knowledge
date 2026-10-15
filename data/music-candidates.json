@@ -1,0 +1,41 @@
+[
+  {
+    "id":"A",
+    "title":"Aphelion",
+    "author":"Scott Buckley",
+    "source":"https://www.scottbuckley.com.au/library/aphelion/",
+    "audio":"https://www.scottbuckley.com.au/library/wp-content/uploads/2026/04/Aphelion.mp3",
+    "license":"CC BY 4.0",
+    "licenseUrl":"https://creativecommons.org/licenses/by/4.0/",
+    "credit":"'Aphelion' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+    "character":"安静与沉思的开场，逐步走向合成器和管弦乐高潮。",
+    "assessment":"优先试听：适合全片从唤醒、探索到知识汇聚的情绪曲线。",
+    "verifiedDate":"2026-10-15"
+  },
+  {
+    "id":"B",
+    "title":"Machinery of the Stars",
+    "author":"Scott Buckley",
+    "source":"https://www.scottbuckley.com.au/library/machinery-of-the-stars/",
+    "audio":"https://www.scottbuckley.com.au/wp-content/audio/sb_machineryofthestars.mp3",
+    "license":"CC BY 4.0",
+    "licenseUrl":"https://creativecommons.org/licenses/by/4.0/",
+    "credit":"'Machinery of the Stars' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+    "character":"向上展开的弦乐与持续推动的电子鼓。",
+    "assessment":"偏重 MV 节奏：适合强调几何运动与图形变化的拍点。",
+    "verifiedDate":"2026-10-15"
+  },
+  {
+    "id":"C",
+    "title":"Signal to Noise",
+    "author":"Scott Buckley",
+    "source":"https://www.scottbuckley.com.au/library/signal-to-noise/",
+    "audio":"https://www.scottbuckley.com.au/library/wp-content/uploads/2020/04/sb_signaltonoise.mp3",
+    "license":"CC BY 4.0",
+    "licenseUrl":"https://creativecommons.org/licenses/by/4.0/",
+    "credit":"'Signal to Noise' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au",
+    "character":"大提琴、钢琴、温暖合成器与低弦乐，神秘而带有希望。",
+    "assessment":"偏重沉思氛围：适合当前留白与排版，也需评估全片高潮的力度。",
+    "verifiedDate":"2026-10-15"
+  }
+]

@@ -5,7 +5,7 @@
   "approvalPolicy": "explicit-user-approval-before-next-shot",
   "music": {
     "direction": "original-or-explicitly-licensed",
-    "status": "pending",
+    "status": "selecting",
     "audioAttached": false
   },
   "shots": [
@@ -119,5 +119,12 @@
         }
       ]
     }
-  ]
+  ],
+  "workflow": {
+    "phase": "music-selection",
+    "nextShotsOnHold": true,
+    "resumeCondition": "用户确定 BGM，前三幕按节奏调整并审看后再继续后续镜头",
+    "userRequest": "做的很好，但是我发现没有配乐的问题很大，我们先敲定一下bgm，然后把已经做好的三幕按照bgm节奏进行调整。这项工作完成之后我们再接着进行其余工作",
+    "date": "2026-10-15"
+  }
 }
