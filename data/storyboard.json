@@ -1,7 +1,7 @@
 {
   "project": "GPT: THE ATLAS OF KNOWLEDGE",
   "planDuration": 210,
-  "activeShot": "S002",
+  "activeShot": "S003",
   "approvalPolicy": "explicit-user-approval-before-next-shot",
   "music": {
     "direction": "original-or-explicitly-licensed",
@@ -55,8 +55,12 @@
       "start": 8,
       "end": 14,
       "version": "v001",
-      "status": "awaiting_review",
-      "approval": null,
+      "status": "approved",
+      "approval": {
+        "date": "2026-10-15",
+        "userWords": "确认继续",
+        "version": "v001"
+      },
       "intent": "承接已通过的 S001，将双语问题的字形汇聚为一枚知识核心；不进入数学章节。",
       "beats": [
         {
@@ -78,6 +82,40 @@
           "start": 13,
           "end": 14,
           "action": "留白与知识核心停留"
+        }
+      ]
+    },
+    {
+      "id": "S003",
+      "chapter": "BOOT",
+      "title": "从光点到原点",
+      "title_en": "A point of departure",
+      "start": 14,
+      "end": 20,
+      "version": "v001",
+      "status": "awaiting_review",
+      "approval": null,
+      "intent": "将知识核心的轨道舒展为坐标轴，完成 BOOT 到 MATHEMATICS 的视觉衔接。保持双语、开放构图及克制的线条。",
+      "beats": [
+        {
+          "start": 14,
+          "end": 14.4,
+          "action": "保持已通过的 S002 尾帧"
+        },
+        {
+          "start": 14.4,
+          "end": 17,
+          "action": "旧标题淡出，光点轻移，椭圆轨道压平并转为轴线"
+        },
+        {
+          "start": 17,
+          "end": 19,
+          "action": "横轴与纵轴展开，原点与刻度出现，双语新标题淡入"
+        },
+        {
+          "start": 19,
+          "end": 20,
+          "action": "保留清晰的原点，颜色转入数学青蓝，章节标签交接"
         }
       ]
     }

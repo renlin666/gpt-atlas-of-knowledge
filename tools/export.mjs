@@ -5,7 +5,7 @@ import ffmpeg from 'ffmpeg-static';
 import { startServer } from './server.mjs';
 import { launchBrowser } from './browser.mjs';
 import { selectShot } from '../src/shots.js';
-const shot=selectShot(process.argv[2]||'S002');
+const shot=selectShot(process.argv[2]||'S003');
 const {version,duration,id}=shot;
 const folder=`review/${id}`;
 

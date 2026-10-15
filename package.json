@@ -8,6 +8,7 @@
     "preview": "node tools/server.mjs",
     "export:s001": "node tools/export.mjs S001",
     "export:s002": "node tools/export.mjs S002",
+    "export:s003": "node tools/export.mjs S003",
     "check": "node tools/check.mjs"
   },
   "devDependencies": {
