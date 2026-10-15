@@ -9,4 +9,5 @@
 - Follow docs/PLAN.md. Concept maps are curated artistic representations, not model internals.
 - Keep this project in its own directory. Do not edit sibling projects.
 - Sync reviewable changes to the linked GitHub repository when available. Never commit credentials, node_modules, third-party audio or unreviewed license claims.
-- Music direction: original or explicitly licensed; selection is pending. Do not add a track without checking its actual license.
+- Music selected by the user on 2026-10-15: Aphelion by Scott Buckley, CC BY 4.0. See data/music-edit.json for verified source, hash and attribution. Keep full audio out of Git.
+- Current priority: review the combined S001–S003 music edit (BOOT music-v001). Keep S004 and all later shots on hold until the user approves this edit. Original silent scene modules and their prior approvals are preserved as baselines.

@@ -10,10 +10,12 @@
 </head>
 <body>
   <main>
-    <header><a class="wordmark" href="/">ATLAS<span>OF KNOWLEDGE</span></a><nav><a href="/?shot=S001&t=7.6">S001 已通过</a><a href="/?shot=S002&t=5.6">S002 已通过</a><a href="/?shot=S003">S003 审看</a></nav><div class="review-status"><i></i>S003 · 待你审看</div></header>
+    <header><a class="wordmark" href="/">ATLAS<span>OF KNOWLEDGE</span></a><nav><a href="/?shot=BOOT">有声连续版</a><a href="/?shot=S001&t=7.6">S001 原版</a><a href="/?shot=S002&t=5.6">S002 原版</a><a href="/?shot=S003">S003 原版</a></nav><div class="review-status"><i></i>有声节奏版 · 待你审看</div></header>
     <section class="intro"><div><p class="eyebrow">01 / BOOT — 唤醒</p><h1>每一次探索，始于一个问题。</h1></div><p class="version">分镜 001 / v002<br>00:00 — 00:08 · 无配乐预览</p></section>
     <section class="viewer" aria-label="分镜动态预览"><canvas id="view" width="1920" height="1080" aria-label="光标与提问动画"></canvas></section>
     <section class="transport" aria-label="播放控制"><button id="play">播放</button><button id="restart" class="secondary">重播</button><output id="clock">00:00.00 / 00:08.00</output><label class="timeline"><span class="sr-only">镜头时间</span><input id="seek" type="range" min="0" max="8" step="0.01" value="0"></label><button id="fullscreen" class="secondary">全屏画面</button></section>
+    <div class="audio-level" hidden><label for="volume">配乐音量 / Volume</label><input id="volume" aria-label="配乐音量" type="range" min="0" max="1" step="0.05" value="1"><span>Aphelion — Scott Buckley · CC BY 4.0</span></div>
+    <audio id="sound" preload="auto"></audio>
     <section class="notes"><div><p class="eyebrow">这一镜，看什么</p><p>光标的呼吸、双语文字出现的速度，以及问题出现后的停留是否合适。</p></div><div><p class="eyebrow">审看节奏</p><p>0–1.4s 光标 · 1.4–3.1s 标题 · 3.0–6.2s 双语输入 · 6.2–8s 停留</p></div></section>
     <footer><span>按空格播放 / 暂停 · ← → 移动 0.25 秒</span><span>本镜确认后，再制作下一镜。</span></footer>
   </main>

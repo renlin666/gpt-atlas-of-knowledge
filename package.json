@@ -6,6 +6,9 @@
   "description": "GPT：知识宇宙图鉴 — deterministic animation, reviewed one shot at a time",
   "scripts": {
     "preview": "node tools/server.mjs",
+    "prepare:audio": "node tools/prepare_audio.mjs",
+    "export:boot": "node tools/export.mjs BOOT",
+    "check:music": "node tools/check_music.mjs",
     "export:s001": "node tools/export.mjs S001",
     "export:s002": "node tools/export.mjs S002",
     "export:s003": "node tools/export.mjs S003",

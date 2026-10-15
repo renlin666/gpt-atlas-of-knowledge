@@ -1,3 +1,5 @@
 # 配乐
 
-用户已选择原创或明确可授权配乐，曲目尚未确定。现有 S001–S003 为无配乐版，时间线为暂定工作时长。2026-10-15 起优先选曲并调整前三幕，后续分镜暂停。候选来源与署名见 `data/music-candidates.json`，试听页为 `/music.html`。确认曲目后记录实际音频文件、哈希、来源、许可及改动，再做节奏与音画同步。音频默认不进入 Git。
+2026-10-15 用户已选择 **Aphelion — Scott Buckley，CC BY 4.0**。曲目、作者官网来源、原文件 SHA-256、署名与改动见 `data/music-edit.json` 和 `CREDITS.md`。
+
+执行 `npm run prepare:audio` 可从作者官网获取已确认版本、核对哈希并准备 24 秒本地审看音频。原文件 `Aphelion.mp3`；审看片段 `BOOT-Aphelion-music-v001.m4a`。片段增益 +4dB、末尾淡出 0.45 秒，速度不变。完整音频和独立音频片段均被 Git 忽略；可审看的配乐视频保存在 `review/BOOT/`。

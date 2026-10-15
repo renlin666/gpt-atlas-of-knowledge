@@ -5,6 +5,7 @@ import ffmpeg from 'ffmpeg-static';
 import { startServer } from './server.mjs';
 import { launchBrowser } from './browser.mjs';
 import { selectShot } from '../src/shots.js';
+import { existsSync } from 'node:fs';
 const shot=selectShot(process.argv[2]||'S003');
 const {version,duration,id}=shot;
 const folder=`review/${id}`;
@@ -18,7 +19,9 @@ try {
   browser=await launchBrowser();
   const page=await browser.newPage({viewport:{width:1920,height:1080}});
   await page.goto(`${url}/?mode=export&shot=${id}`);await page.waitForFunction(()=>window.__atlas?.ready);
-  encoder=spawn(ffmpeg,['-y','-hide_banner','-loglevel','error','-f','image2pipe','-framerate',String(fps),'-vcodec','png','-i','pipe:0','-an','-c:v','libx264','-preset','medium','-crf','18','-pix_fmt','yuv420p','-movflags','+faststart',output],{stdio:['pipe','ignore','pipe'],windowsHide:true});
+  if(shot.audioPath&&!existsSync(shot.audioPath))throw new Error('Run npm run prepare:audio before exporting the music edit.');
+  const soundtrack=shot.audioPath?['-i',shot.audioPath,'-map','0:v:0','-map','1:a:0','-c:a','copy','-t',String(duration)]:['-an'];
+  encoder=spawn(ffmpeg,['-y','-hide_banner','-loglevel','error','-f','image2pipe','-framerate',String(fps),'-vcodec','png','-i','pipe:0',...soundtrack,'-c:v','libx264','-preset','medium','-crf','18','-pix_fmt','yuv420p','-movflags','+faststart',output],{stdio:['pipe','ignore','pipe'],windowsHide:true});
   let encoderError='';encoder.stderr.on('data',d=>encoderError+=d);
   const completion=new Promise((resolve,reject)=>{encoder.once('error',reject);encoder.once('close',code=>code===0?resolve():reject(new Error(`FFmpeg ${code}: ${encoderError}`)));});
   // Attach immediately to avoid unhandled rejection if FFmpeg fails while frames are rendering.
@@ -34,8 +37,9 @@ try {
   let log='';probe.stderr.on('data',d=>log+=d);
   const [code]=await once(probe,'close');if(code!==0)throw new Error(log);
   if(!log.includes('1920x1080') || !/60 fps/.test(log) || !new RegExp(`frame=\\s*${frames}`).test(log))throw new Error(`Unexpected export metadata: ${log}`);
+  if(shot.audioPath&&!/Audio: aac.*48000 Hz, stereo/.test(log))throw new Error('Missing expected AAC stereo soundtrack.');
   await writeFile(`${folder}/video-verification.txt`,log);
-  console.log(`Verified: ${output}, 1920×1080, 60fps, ${frames} frames, ${duration} seconds, no audio.`);
+  console.log(`Verified: ${output}, 1920×1080, 60fps, ${frames} frames, ${duration} seconds, ${shot.audioPath?'AAC stereo soundtrack':'no audio'}.`);
 } finally {
   if(encoder && encoder.exitCode===null)encoder.kill();
   if(browser)await browser.close();await new Promise(r=>server.close(r));

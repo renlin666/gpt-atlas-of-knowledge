@@ -1,0 +1,31 @@
+{
+  "version": "music-v001",
+  "duration": 24,
+  "trackSha256": "57ae03dbc122f0859e0f9a273e59503e34883728ddb5b06761fbf8244b0eb23e",
+  "maxCueAlignmentError": 0.007466666666667621,
+  "previewClockSkew": 0.0016539999999999888,
+  "audioPeakDb": -2.1,
+  "exportedAudioHash": "SHA256=2421c095b6259bf4e8f2ede10dce9b4deca8c022d208511d6afab18f03a921bf",
+  "hashes": {
+    "3.7333333333": "1a9be4ba0ca1997e10897e17ba1dd33b8d14bec484fe9cf03281603691658e79",
+    "9.7333333333": "ef9f574bc4aba3f50013b408b41698bca7603155dc1a7705f1ddcf38a97295aa",
+    "15.7333333333": "96f5097a65c08b28ba2f76a1da038e5186759e96eae03df5bba8a81b0abb8b93",
+    "23.2333333333": "4a1b3cfe67630a0b52f5e866b59f68ce9e6a136d6a801b2f1d3690ceb54a01a0"
+  },
+  "checks": [
+    "verified audio hash",
+    "monotonic time remap",
+    "gap-free timeline",
+    "cue alignment within half a frame",
+    "audio range requests",
+    "frame determinism after seeking/reload",
+    "pixel-exact scene boundary holds",
+    "audio-driven playback",
+    "soundtrack/image seek and replay",
+    "pause and volume",
+    "mobile layout",
+    "no browser/resource errors",
+    "exported audio equals preview sample-for-sample"
+  ],
+  "errors": []
+}

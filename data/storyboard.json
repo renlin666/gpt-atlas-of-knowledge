@@ -1,12 +1,18 @@
 {
   "project": "GPT: THE ATLAS OF KNOWLEDGE",
   "planDuration": 210,
-  "activeShot": "S003",
+  "activeShot": "BOOT",
   "approvalPolicy": "explicit-user-approval-before-next-shot",
   "music": {
     "direction": "original-or-explicitly-licensed",
-    "status": "selecting",
-    "audioAttached": false
+    "status": "selected",
+    "audioAttached": true,
+    "title": "Aphelion",
+    "author": "Scott Buckley",
+    "license": "CC BY 4.0",
+    "source": "https://www.scottbuckley.com.au/library/aphelion/",
+    "selectedOn": "2026-10-15",
+    "userSelection": "A · Aphelion：科幻叙事，安静开场到宏大高潮（推荐）"
   },
   "shots": [
     {
@@ -45,7 +51,14 @@
           "end": 8,
           "action": "问题完整停留"
         }
-      ]
+      ],
+      "musicEdit": {
+        "version": "v003",
+        "start": 0,
+        "end": 11.983333333333333,
+        "status": "awaiting_review",
+        "approval": null
+      }
     },
     {
       "id": "S002",
@@ -83,7 +96,14 @@
           "end": 14,
           "action": "留白与知识核心停留"
         }
-      ]
+      ],
+      "musicEdit": {
+        "version": "v002",
+        "start": 11.983333333333333,
+        "end": 17.983333333333334,
+        "status": "awaiting_review",
+        "approval": null
+      }
     },
     {
       "id": "S003",
@@ -117,14 +137,22 @@
           "end": 20,
           "action": "保留清晰的原点，颜色转入数学青蓝，章节标签交接"
         }
-      ]
+      ],
+      "musicEdit": {
+        "version": "v002",
+        "start": 17.983333333333334,
+        "end": 24,
+        "status": "awaiting_review",
+        "approval": null
+      }
     }
   ],
   "workflow": {
-    "phase": "music-selection",
+    "phase": "music-edit-review",
     "nextShotsOnHold": true,
-    "resumeCondition": "用户确定 BGM，前三幕按节奏调整并审看后再继续后续镜头",
+    "resumeCondition": "用户审看并确认前三幕连续有声节奏版后，再继续后续镜头",
     "userRequest": "做的很好，但是我发现没有配乐的问题很大，我们先敲定一下bgm，然后把已经做好的三幕按照bgm节奏进行调整。这项工作完成之后我们再接着进行其余工作",
-    "date": "2026-10-15"
+    "date": "2026-10-15",
+    "reviewUnit": "BOOT music-v001"
   }
 }
